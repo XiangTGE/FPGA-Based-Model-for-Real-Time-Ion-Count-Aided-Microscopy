@@ -1,0 +1,44 @@
+{
+  "schema": "xilinx.com:schema:json_instance:1.0",
+  "ip_inst": {
+    "xci_name": "Live_ADC_Expand_14_to_32_1_0",
+    "cell_name": "Expand_14_to_32_1",
+    "component_reference": "xilinx.com:module_ref:Expand_14_to_32:1.0",
+    "ip_revision": "1",
+    "gen_directory": "../../../../../../Live_ADC_Test.gen/sources_1/bd/Live_ADC/ip/Live_ADC_Expand_14_to_32_1_0",
+    "parameters": {
+      "component_parameters": {
+        "Component_Name": [ { "value": "Live_ADC_Expand_14_to_32_1_0", "resolve_type": "user", "usage": "all" } ]
+      },
+      "project_parameters": {
+        "ARCHITECTURE": [ { "value": "zynq" } ],
+        "BASE_BOARD_PART": [ { "value": "digilentinc.com:eclypse-z7:part0:1.1" } ],
+        "BOARD_CONNECTIONS": [ { "value": "" } ],
+        "DEVICE": [ { "value": "xc7z020" } ],
+        "PACKAGE": [ { "value": "clg484" } ],
+        "PREFHDL": [ { "value": "VERILOG" } ],
+        "SILICON_REVISION": [ { "value": "" } ],
+        "SIMULATOR_LANGUAGE": [ { "value": "MIXED" } ],
+        "SPEEDGRADE": [ { "value": "-1" } ],
+        "STATIC_POWER": [ { "value": "" } ],
+        "TEMPERATURE_GRADE": [ { "value": "" } ]
+      },
+      "runtime_parameters": {
+        "IPCONTEXT": [ { "value": "IP_Integrator" } ],
+        "IPREVISION": [ { "value": "1" } ],
+        "MANAGED": [ { "value": "TRUE" } ],
+        "OUTPUTDIR": [ { "value": "../../../../../../Live_ADC_Test.gen/sources_1/bd/Live_ADC/ip/Live_ADC_Expand_14_to_32_1_0" } ],
+        "SELECTEDSIMMODEL": [ { "value": "" } ],
+        "SHAREDDIR": [ { "value": "../../ipshared" } ],
+        "SWVERSION": [ { "value": "2023.2" } ],
+        "SYNTHESISFLOW": [ { "value": "OOC_HIERARCHICAL" } ]
+      }
+    },
+    "boundary": {
+      "ports": {
+        "din": [ { "direction": "in", "size_left": "13", "size_right": "0" } ],
+        "dout": [ { "direction": "out", "size_left": "31", "size_right": "0" } ]
+      }
+    }
+  }
+}
